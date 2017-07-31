@@ -24,3 +24,5 @@ except:
 pay = computepay(hours, rate)
 
 print 'Pay:', pay
+
+Lesley is here.
