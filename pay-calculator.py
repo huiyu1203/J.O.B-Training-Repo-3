@@ -10,7 +10,6 @@ def computepay(hours, rate):
         return pay
     else:
         pay = hours * rate
-        pay = '${:,.2f}'.format(pay)
         return pay
 
 try:
@@ -24,5 +23,3 @@ except:
 pay = computepay(hours, rate)
 
 print 'Pay:', pay
-
-Lesley is here.
