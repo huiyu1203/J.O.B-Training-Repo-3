@@ -10,7 +10,6 @@ def computepay(hours, rate):
         return pay
     else:
         pay = hours * rate
-        pay = '${:,.2f}'.format(pay)
         return pay
 
 try:
