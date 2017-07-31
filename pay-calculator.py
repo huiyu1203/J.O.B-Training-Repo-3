@@ -1,3 +1,4 @@
+
 # prompt for hours and rate to compute pay with overtime calculation
 # catching exceptions with try and except
 # updated with a function
@@ -6,7 +7,6 @@ def computepay(hours, rate):
     overtime = hours - 40
     if hours > 40:
         pay = (40 * rate) + (overtime * rate * 1.5)
-        pay = '${:,.2f}'.format(pay) #converts the float value to a currency dollars
         return pay
     else:
         pay = hours * rate
